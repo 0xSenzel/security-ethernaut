@@ -1,4 +1,4 @@
-## Take ownership of the contract
+# Take over ownership of the contract
 
 The only method to switch ownership of contract is inside constructor `Fallout`. 
 

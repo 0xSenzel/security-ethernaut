@@ -1,3 +1,4 @@
+# Take over ownership of contract
 Here contains two contracts, by running contract.abi we can tell it's contract `Delegation`
 
 Looking at the contract, function `pwn` sets the contract owner to `msg.sender`
