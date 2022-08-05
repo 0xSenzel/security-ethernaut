@@ -15,7 +15,7 @@ So they will not return 0. So it is not possible to satisfy
 require(x == 0)
 ```
 However from Yellow Paper:
-image.png
+![image](https://user-images.githubusercontent.com/62827213/183115921-99b4442e-6a83-4315-8d7b-d9133337784b.png)
 
 So to bypass this we can simply deploy through `constructor` since it runs during initialization. Hence will return '0'.
 
