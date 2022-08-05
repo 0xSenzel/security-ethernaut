@@ -4,11 +4,11 @@
 Concept is exactly the same as Level13-GatekeeperOne. We just need to call the contract using another contract which the condition is naturally satisfied.
 
 ## Gate Two
-`assembly` keyword allow us to write code in lower-level language.(Documentation)[https://docs.soliditylang.org/en/v0.6.0/assembly.html]
+`assembly` keyword allow us to write code in lower-level language.[Documentation](https://docs.soliditylang.org/en/v0.6.0/assembly.html)
 
 `caller` is an opcode that returns 20 byte address.
 `extcodesize` opcode returns size of the code in the given address.
-(refer here)[https://www.evm.codes/#3b]
+[refer here](https://www.evm.codes/#3b)
 
 So they will not return 0. So it is not possible to satisfy 
 ```
