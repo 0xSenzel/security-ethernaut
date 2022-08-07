@@ -4,7 +4,8 @@
 
 When "LibraryContract" executed `setTime` it will modify storage slot 0 of "Preservation" contract because it modifies slot 0 at "LibraryContract".
 
-| slot number | LibraryContract | Preservation|
+| slot number | LibraryContract | Preservation |
+| ------- | ----- | --------- |
 | slot 0 | storedTime | timeZone1Library |
 | slot 1 | - | timeZone2Library |
 | slot 2 | - | owner |
