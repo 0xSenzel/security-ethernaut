@@ -35,6 +35,7 @@ It replicates runtime opcode, return them to EVM. This functio is handled by opc
 * current position of runtime opcode (in reference to entire bytecore)
 * size of the code in byte
 For our opcode it would be needing:
+
 | OPCODE | BYTECODE | NAME |
 | ---- | ---- | ---- |
 | 0X60 | 6000 | PUSH 1 |
