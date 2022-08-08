@@ -56,6 +56,7 @@ f3          RETURN value 0x0a and size 0x--
  ```
 Concatenate the opcodes we get bytecode:
  `600a60--600039600a6000f3`
+ 
  Total is 12 bytes, so position of runtime opcode is 12 or "0x0c" in hex. Therefore the final bytecode:
  `600a600c600039600a6000f3`
 
