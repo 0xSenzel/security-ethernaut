@@ -7,22 +7,10 @@ When we look at the contract, the price of the token is fetch from a math equati
   }
 ```
 The equation can be summarized as:
-
-|`sa = p_1 * (d_2/d_1)`|
-|-|
-|sa = Swap Amount|
-|p_1 = player token1 balance|
-|d_1 = DEX token1 balance|
-|d_2 = DEX token2 balance|
-
-or when you do the opposite:
-|`sa = p_2 * (d_1/d_2)`|
-|-|
-|sa = Swap Amount|
-|p_2 = player token2 balance|
-|d_1 = DEX token1 balance|
-|d_2 = DEX token2 balance|
-
+```
+```
+Swap Amount = <AMOUNT_WE_SWAP> * <DEX_BALANCE_TOKEN_WE_WANT> / <DEX_BALANCE_TOKEN_WE_SEND>
+```
 
 The vulnerabiltiy is by getting swap price through this method, the division won't calculate to a perfect integer but a fraction. In solidity, division rounds towards zero. For example, `3/2 = 1`.
 
