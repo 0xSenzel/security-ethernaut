@@ -7,7 +7,7 @@ When we look at the contract, the price of the token is fetch from a math equati
   }
 ```
 The equation can be summarized as:
-```
+
 ```
 Swap Amount = <AMOUNT_WE_SWAP> * <DEX_BALANCE_TOKEN_WE_WANT> / <DEX_BALANCE_TOKEN_WE_SEND>
 ```
