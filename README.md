@@ -3,9 +3,8 @@ The folders contain the solution of challenges arranged in ascending order accor
 
 Each folders represent 1 challenge which contains: <br/> 
 1. The challenge's smart contract intended for player to exploit named in such format: <CHALLENGE_NAME>.sol <br/>
-2. README.md file that explains my thought process <br/>
+2. README.md write up <br/>
 3. <LEVEL_OF_THE_CHALLENGE>-Solution.sol which is the smart contract deployed on REMIX IDE to exploit a particular challenge.
-
 
 _____________________
 # Credit:
